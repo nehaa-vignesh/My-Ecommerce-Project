@@ -1,52 +1,72 @@
+E-Commerce Product Listing Website
 
----
+A responsive front-end E-commerce web application built using HTML5, CSS3, and JavaScript. The application enables users to browse products by category, filter products by price range, and view detailed product information through a modal popup interface.
 
-## Features
-- Display products in different **categories** (Electronics, Clothing, Accessories).  
-- Filter products dynamically by **price range**.  
-- Click on a product to see **details in a popup model**.  
-- Responsive layout that works on both desktop and mobile.  
-- Simple, clean styling using CSS.  
+Overview
 
----
+This project demonstrates dynamic product rendering, category-based filtering, and real-time price filtering using JavaScript. It focuses on clean UI design, structured code organization, and responsive layout implementation.
 
-## Technologies Used
-- **HTML5** – structure of pages  
-- **CSS3** – styling and responsive layout  
-- **JavaScript** – dynamic product listing, filtering, and model popup  
+Features
 
----
+Display products across categories such as Electronics, Clothing, and Accessories
 
-## How to Use
-1. Open `index.html` in a browser to see the homepage.  
-2. Click on a category to filter products.  
-3. Use the price slider to filter by price.  
-4. Click a product card to open the product details model.  
-5. Click outside the model or the × button to close it.  
+Dynamic filtering based on price range
 
----
+Product detail view using a modal popup
 
-## Challenges Faced
-- Making the **popup model** work for all products.  
-- Keeping the product list **dynamic** when filtering by price and category.  
-- Making the site **responsive** on different screen sizes.  
+Responsive design for desktop and mobile devices
 
----
+Clean and structured user interface
 
-## Conclusion
-This project helped me understand how to:  
-- Work with arrays of product data in JavaScript  
-- Manipulate the DOM to create product cards dynamically  
-- Apply filtering logic for categories and price  
-- Create a simple, user-friendly model popup for product details  
+Technologies Used
 
----
+HTML5 – Page structure
 
-## Images
-*(Add screenshots here for homepage, product list, and product model popup)*
+CSS3 – Styling and responsive design
 
----
+JavaScript – DOM manipulation, filtering logic, and modal functionality
 
-## GitHub Repository
-You can check the full project on [GitHub](#) *(replace # with your repo link)*
+Project Structure
+My-ECommerce-Project
+│── index.html
+│── style.css
+│── script.js
+│── images/
+│── README.md
+Working Principle
 
+Product data is stored as a JavaScript array of objects
+
+Products are dynamically rendered into the DOM
+
+Category and price filters update the product display in real time
+
+Clicking a product opens a modal displaying detailed information
+
+Learning Outcomes
+
+Implemented dynamic DOM manipulation
+
+Applied filtering logic using JavaScript
+
+Built reusable modal components
+
+Designed responsive layouts using CSS
+
+Improved front-end project structuring and organization
+
+Future Enhancements
+
+Add shopping cart functionality
+
+Implement product search feature
+
+Integrate backend services
+
+Add user authentication
+
+Deploy live using GitHub Pages
+
+Author
+
+Nehaa Vignesh
